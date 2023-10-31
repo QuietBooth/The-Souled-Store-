@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Open+Sans:wght@500&family=Poppins&display=swap');      
+
+.login-container{
+    width: 1690px;
+    height: 533px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-box{
+    background-color: #e6e7e8;
+    width: 99%;
+    height: 533px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login{
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: white;
+    width: 450px;
+    height: 472px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-content{
+    width: 450px;
+    height: 472px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.login-content  p{
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration:none solid rgb(88, 89, 91);
+    text-align:center;
+}
+
+.buttons{
+    padding-top: 15px;
+}
+
+.method-buttons{
+    padding-top: 15px;
+}
+
+#Facebook{
+    border: 2px solid rgb(204, 204, 204) ;
+    
+}
+
+#Google{
+    border: 2px solid rgb(204, 204, 204) ;
+    
+}
+
+#login-Button{
+    width: 184px;
+    height: 44px;
+    color: white;
+    border: 1px solid rgb(197, 197, 197);
+    background-color: rgb(17, 122, 122);
+}
+
+#Register-Button{
+    width: 184px;
+    height: 44px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+
+
+
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.footer{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.flex{
+    display: flex;
+}
+.flex-direction-column{
+    display: flex;
+    flex-direction: column;
+}
+.text-center{
+    text-align: center;
+}
+.footer-categories{
+    padding: 35px 210px 0 190px;
+    background-color:#E6E7E8 ;
+}
+.content-center{
+    justify-content: center;
+}
+.spc-btwn{
+    justify-content: space-between;
+}
+.line-spacing{
+    line-height: 35px;
+}
+a{
+    text-decoration: none;
+    color: #58597A ;
+    font-weight: 900;
+    width: 265px;
+    font-size: 13px;
+    font-weight: 900;
+    padding-left: 5px;
+}
+a:hover{
+    color:#ed2d2f;
+}
+.category-name{
+    color: #ED2E30;
+    padding-left: 5px;
+    font-weight: 900;
+
+}
+.homegrown-text{
+    color: white;
+    background-color: #E71318;
+    font-size: 38px;
+}
+.happy-customer-text{
+    padding:15px 0 10px 0 ;
+    font-size: 40px;
+}
+.rupee-icon,.return-icon{
+    width: 30px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding:3px 0 0 4px;
+    color: #58595B
+    
+}
+.cod-text,.return-text{
+    padding: 5px 0 10px 10px;
+    font-size: 15px;
+    color: #58595B;
+    font-weight: 400;
+}
+.playstore-image{
+    padding: 0 7px 0 0 ;
+}
+.appstore-image{
+    padding: 0 0 0 7px;
+}
+.experience-text{
+    padding: 0 0 10px 10px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #58595b;
+}
+.facebook-icon,.instagram-icon,.snapchat-icon,.twitter-icon{
+
+    padding: 10px 5px;
+}
+.facebook-icon:hover,.instagram-icon:hover,.snapchat-icon:hover,.twitter-icon:hover{
+    transform:translateY(-3px)
+}
+.follow-us-text{
+    font-size: 15px;
+    align-self: center;
+}
+.follow-us{
+    justify-content: end;
+}
+.navigation-links,.who-we-are{
+    font-size: 14px;
+    border: 0.1px solid #BCBCBD;
+    Color:#ed2e30;
+    align-content: center;
+    padding: 10px 20px 0 20px;
+    font-weight: 600;
+}
+.payment-partners{
+    padding: 10px 20px 20px 0;
+    font-size: 12px;
+    align-content:center ;
+}
+.payment-text,.shipping-text{
+    padding: 10px 20px 0 0 ;
+    color: #58595B;
+}
+.shipping-partners{
+    border-left: 0.1px solid #CCCCCC;
+    padding: 0 20px 0 10px;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    border: 0.1px solid #C4C5C8;
+}
+.popular-search-heading{
+    width: 200px;
+    color: #525964;
+    font-size:13px ;
+    font-weight:600;
+}
+.popular-search-text{
+    color: #525964;
+    font-size: 13px;
+}
+.copyrights{
+    color:#58595b;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px;
+    justify-content: center;
+}
