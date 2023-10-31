@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Open+Sans:wght@500&family=Poppins&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.footer{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.flex{
+    display: flex;
+}
+.flex-direction-column{
+    display: flex;
+    flex-direction: column;
+}
+.text-center{
+    text-align: center;
+}
+.footer-categories{
+    padding: 40px 210px 0 190px;
+    background-color:#E6E7E8 ;
+}
+.content-center{
+    justify-content: center;
+}
+.spc-btwn{
+    justify-content: space-between;
+}
+.line-spacing{
+    line-height: 35px;
+}
+a{
+    text-decoration: none;
+    color:#58595B ;
+    font-weight: 900;
+    width: 265px;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+a:hover{
+    color:#ed2d2f;
+}
+.category-name{
+    color: #ED2E30;
+    padding-left: 5px;
+
+}
+.homegrown-text{
+    color: white;
+    background-color: #E71318;
+    font-size: 38px;
+}
+.happy-customer-text{
+    font-size: 48px;
+}
+.rupee-icon,.return-icon{
+    width: 30px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding:3px 0 0 4px;
+    color: #58595B
+    
+}
+.cod-text,.return-text{
+    padding: 5px 0 10px 10px;
+    font-size: 15px;
+    color: #58595B;
+    font-weight: 400;
+}
+.playstore-image{
+    padding: 0 7px 0 0 ;
+}
+.appstore-image{
+    padding: 0 0 0 7px;
+}
+.experience-text{
+    padding: 0 0 10px 10px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #58595b;
+}

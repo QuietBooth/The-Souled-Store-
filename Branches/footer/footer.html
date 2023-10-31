@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>footer</title>
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body>
 
@@ -13,121 +14,179 @@
     <!-- footer -->
 
     <div class="footer">
-        <div class="homegrown">
-            <h1>HOMEGROWN INDIAN BRAND</h1>
+        <div class="homegrown-text text-center">
+            <p> HOMEGROWN INDIAN BRAND </p>
         </div>
-        <div class="happy-customer">
-            <h1> Over <strong>6 Million</strong>Happy Customers </h1>
+        <div class="happy-customer-text text-center">
+            <p> Over <strong style="font-weight: 900;">6 Million </strong>  Happy Customers </p>
         </div>
 
-        <!-- categories of footer  -->
+        <div class="footer-categories">
+            <!-- categories of footer  -->
 
-        <div class="categories">
+            <div class="categories flex spc-btwn">
 
-            <!-- need-help category  -->
+                <!-- need-help category  -->
 
-            <div class="need-help">
-                <a href="">Contact</a>
-                <a href="">Track Order</a>
-                <a href="">Return & Refunds</a>
-                <a href="">FAQs</a>
-                <a href="">My Account</a>
+                <div class="need-help flex-direction-column line-spacing">
+                    <h3 class="category-name">
+                        NEED HELP
+                    </h2>
+                    <a href="">Contact</a>
+                    <a href="">Track Order</a>
+                    <a href="">Return & Refunds</a>
+                    <a href="">FAQs</a>
+                    <a href="">My Account</a>
+                </div>
+
+                <!-- company category  -->
+
+                <div class="company flex-direction-column line-spacing">
+                    <h3 class="category-name">
+                        COMPANY
+                    </h2>
+                    <a href="">About Us</a>
+                    <a href="">Careers</a>
+                    <a href="">Community Initiatives</a>
+                    <a href="">Souled Army</a> 
+                </div>
+
+                <!-- more info category -->
+
+                <div class="more-info flex-direction-column line-spacing">
+                    <h3 class="category-name">
+                        MORE INFO
+                    </h2>
+                    <a href="">T&C</a>
+                    <a href="">privacy Policy</a>
+                    <a href="">Sitemap</a>
+                </div>
+
+                <!-- store-near-me category -->
+
+                <div class="store-near-me flex-direction-column line-spacing">
+                    <h3 class="category-name">
+                        STORE NEAR ME
+                    </h2>
+                    <a href="">Bandra</a>
+                    <a href="">Thane</a>
+                    <a href="">Coloba</a>
+                    <a href="">Palladium</a>
+                    <a href="">Pune</a>
+                    <a href="">Bangalore</a>
+                    <a href="">Malad</a>
+                    <a href="">GhatKopar</a>
+                    <a href="">Goregaon</a>
+                    <a href="">Ahmedabad</a>
+                    <a href="">Haryana</a>
+                    <a href="">Indore</a>
+                    <a href="">Bhopal</a>
+                    <a href="">Surat</a>
+                </div>
             </div>
 
-            <!-- company category  -->
+            <!-- features available -->
 
-            <div class="company">
-                <a href="">About Us</a>
-                <a href="">Careers</a>
-                <a href="">Community Initiatives</a>
-                <a href="">Souled Army</a> 
+            <div class="cod flex">
+                <div class="rupee-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                        <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z"/>
+                    </svg>
+                </div>
+                <div class="cod-text">
+                    <span>COD Available</span>
+                </div>
+            </div>
+            <div class="return flex">
+                <div class="return-icon">
+                    <img width="22px" src="https://www.iconpacks.net/icons/2/free-arrows-refresh-icon-2847-thumb.png" alt="">
+                </div>
+                <div class="return-text">
+                    <span>30 Days Easy Returns</span>
+                </div>
             </div>
 
-            <!-- more info category -->
+            <!-- play store or app store  -->
 
-            <div class="more-info">
-                <a href="">T&C</a>
-                <a href="">privacy Policy</a>
-                <a href="">Sitemap</a>
+            <div class="experience flex content-center">
+                <div class="mobile-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                        <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                    </svg>
+                </div>
+                <div class="experience-text">
+                    <span>EXPERIENCE THE SOULED STORE APP</span>
+                </div>
+            </div>
+            <div class="stores-image flex content-center">
+                <div class="playstore-image">
+                    <img width="125px" height="40px" src="https://tss-static-images.gumlet.io/icons/play-store.png" alt="Play store">
+                </div>
+                <div class="appstore-image">
+                    <img width="125px" height="40px" src="https://tss-static-images.gumlet.io/icons/app-store.png" alt="App Store">
+                </div>
             </div>
 
-            <!-- store-near-me category -->
+            <!-- follow us on social media -->
 
-            <div class="store-near-me">
-                <a href="">Bandra</a>
-                <a href="">Thane</a>
-                <a href="">Coloba</a>
-                <a href="">Palladium</a>
-                <a href="">Pune</a>
-                <a href="">Bangalore</a>
-                <a href="">Malad</a>
-                <a href="">GhatKopar</a>
-                <a href="">Goregaon</a>
-                <a href="">Ahmedabad</a>
-                <a href="">Haryana</a>
-                <a href="">Indore</a>
-                <a href="">Bhopal</a>
-                <a href="">Surat</a>
+            <div class="follow-us">
+
+                <div class="follow-us-text">
+                    <h3>Follow us:</h3>
+                </div>
+                <div class="facebook-icon">
+
+                </div>
+                <div class="instagram-icon">
+
+                </div>
+                <div class="snapchat-icon">
+
+                </div>
+                <div class="twitter-icon">
+
+                </div>
             </div>
-        </div>
 
-        <!-- features available -->
+            <!-- navigation links -->
 
-        <div class="cod-return">
-            <div class="cod">
-                <span>COD Available</span>
+            <div class="navigation-links flex">
+                <div class="navigation-text">
+                    <h2 class="text">NAVIGATION LINKS</h2>
+                </div>
+                <div class="plus-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                </div>
+
             </div>
-            <div class="return">
-                <span>30 Days Easy Returns</span>
+
+            <!-- secure payments methods -->
+
+            <div class="secure-payments-options">
+
             </div>
-        </div>
 
-        <!-- play store or app store  -->
+            <!-- shipping partners  -->
 
-        <div class="experience">
-            <strong>EXPERIENCE THE SOULED STORE APP</strong>
-        </div>
-        <div class="stores">
-            <div class="store images">
-                <img src="https://tss-static-images.gumlet.io/icons/play-store.png" alt="Play store">
-                <img src="https://tss-static-images.gumlet.io/icons/app-store.png" alt="App Store">
+            <div class="shipping-partners">
+
+
             </div>
-        </div>
 
-        <!-- follow us on social media -->
+            <!-- popular searches  -->
 
-        <div class="follow-us">
-            
-        </div>
+            <div class="popular-searches">
 
-        <!-- navigation links -->
+            </div>
 
-        <div class="navigation-links">
+            <!-- copyrights  -->
 
-        </div>
+            <div class="copyrights">
 
-        <!-- secure payments methods -->
-
-        <div class="secure-payments-options">
-
-        </div>
-
-        <!-- shipping partners  -->
-
-        <div class="shipping-partners">
-
-
-        </div>
-
-        <!-- popular searches  -->
-
-        <div class="popular-searches">
-
-        </div>
-
-        <!-- copyrights  -->
-
-        <div class="copyrights">
+            </div>
 
         </div>
 
