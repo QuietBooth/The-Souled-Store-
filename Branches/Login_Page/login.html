@@ -10,6 +10,67 @@
 </head>
 <body>
 
+    <div id="red-nav">
+        <div id="red-nav-buttons">
+            <div class="categories women">WOMEN</div>
+            <div class="categories men" style="color: rgba(0,0,0,0.5); background-color: white;">MEN</div>
+            <div class="categories kids">KIDS</div>
+        </div>
+        <div id="right-opts-red-nav">
+            <div class="opts">TRACK ORDER</div>
+            <div class="opts">CONTACT US</div>
+            <div class="opts flex"><img src="smartphone.png" alt="" id="phone">DOWNLOAD APP</div>
+        </div>
+    </div>
+    <div id="white-nav">
+        <div id="wear-categories" class="flex">
+            <div class="red flex topwear">Topwear<img src="down-arrow-5-svgrepo-com.svg" alt="" id="down-arrow-svg"></div>
+            <div class="red flex bottomwear">Bottomwear<img src="down-arrow-5-svgrepo-com.svg" alt="" id="down-arrow-svg"></div>
+            <div class="red flex">Sneakers</div>
+            <div class="red flex">Accessories<img src="down-arrow-5-svgrepo-com.svg" alt="" id="down-arrow-svg"></div>
+            <div class="red flex">Collections<img src="down-arrow-5-svgrepo-com.svg" alt="" id="down-arrow-svg"></div>
+            <div class="red flex">Shop by Themes<img src="down-arrow-5-svgrepo-com.svg" alt="" id="down-arrow-svg"></div>
+            <div class="red flex">Membership</div>
+        </div>
+        <div id="search-bar">
+            <input type="text" name="search" id="search" placeholder="&nbsp;&nbsp;&nbsp;What are you looking for?">
+        </div>  
+        <div id="right-opts-white-nav">
+            <div id="right-opts" class="search-btn"><img src="search-svgrepo-com.svg" alt="" id="icons"></div>
+            <div id="right-opts" class="red-hover height-inherit"><img src="user.png" alt="" id="icons"></div>
+            <div id="right-opts" class="red-hover height-inherit"><svg id="svg-icons-hover" xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+            </svg></div>
+            <div id="right-opts" class="red-hover height-inherit"><img src="cart-4-svgrepo-com.svg" alt="" id="icons"></div>
+        </div>
+        
+    </div>
+    
+    <div id="dropdowns">
+        <div id="topwear-dd" class="dd-styling">
+            <div id="hover-red-text">Hoodies and Sweatshirts</div>
+            <div id="hover-red-text">Oversized T-shirts</div>
+            <div id="hover-red-text">Casual Shirts</div>
+            <div id="hover-red-text">All T-shirts</div>
+            <div id="hover-red-text">Polos</div>
+            <div id="hover-red-text">Oversized Full Sleeves</div>
+            <div id="hover-red-text">Jackets</div>
+            <div id="hover-red-text">Classic Fit T-Shirts</div>
+            <div id="hover-red-text">All Solid T-shirts</div>
+            <div id="hover-red-text">Co-ord Sets</div>
+            <div id="hover-red-text">Printed Shirts</div>
+        </div>
+        <div id="bottomwear-dd" class="dd-styling">
+            <div id="hover-red-text">All Cargos</div>
+            <div id="hover-red-text">Jeans</div>
+            <div id="hover-red-text">Cotton Pants</div>
+            <div id="hover-red-text">Joggers</div>
+            <div id="hover-red-text">Shorts</div>
+            <div id="hover-red-text">Boxers & Innerwear</div>
+            <div id="hover-red-text">Pajamas</div>
+        </div>
+    </div>
+
 
     <div class="login-container">
         <div class="login-box">
@@ -20,10 +81,26 @@
                         <div class="buttons" >
                             <button id="login-Button" >LOGIN</button><button id="Register-Button" >REGISTER</button>
                         </div>
+                        <!-- <div class="shape"><svg xmlns="http://www.w3.org/2000/svg" width="" height="25" fill="currentColor" class="bi bi-caret-up" viewBox="0 0 16 16">
+                            <path d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 0 1 1.506 0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 0 1-.753-1.659z"/>
+                        </svg>
+                        </div> -->
                         <div class="login-method">
                             <div class="method-buttons">
-                                <button id="Facebook"><img src="./Pics/facebook.png" alt="" width="20px"><span>Facebook</span></button> 
-                                <button id="Google"><img src="./Pics/google.png" alt="" width="20px"><span>Google</span></button> 
+                                <button id="Facebook-button"><img src="../Login_Pics/facebook.png" alt="" width="25px"><span>Facebook</span></button>
+                                <button id="Google-button"><img src="../Login_Pics/google.png" alt="" width="22px"><span>Google</span></button>   
+                            </div>
+                            <div>
+                                <p id="OR" > -  OR  - </p>
+                            </div>
+                            <div id="Phone_No">
+                                <input type="text" placeholder="Enter Your Phone Number">
+                            </div>
+                            <div id="Proceed">
+                                <button>PROCEED</button>
+                            </div>
+                            <div id="create_account">
+                                <p id="new_user_text" >New User ?</p><a id="create_account_text"><u>Create Account</u></a>
                             </div>
                         </div>
                     </div>
@@ -225,7 +302,7 @@
                 <div class="secure-payments flex">
 
                     <p class="payment-text">100% Secure Payment :</p>
-                    <img width="380px" src="Branches/Login_Page/Pics/payment options.png" alt="payment">
+                    <img width="380px" src="../Login_Pics/payment options.png" alt="payment">
                     
 
                 </div>
@@ -235,7 +312,7 @@
                 <div class="shipping-partners flex">
 
                     <p class="shipping-text"> Shipping Partners :</p>
-                    <img width="380px" src="Branches/Login_Page/Pics/shipping partners.png" alt="shipping">
+                    <img width="380px" src="../Login_Pics/shipping partners.png" alt="shipping">
 
                 </div>
 
