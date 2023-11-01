@@ -11,36 +11,46 @@
 }
 
 #filter{
-    /* height: 100vh; */
-    width: 350px;
-    background-color: rgb(255, 254, 254);
-    border-right: 1px solid gray;
-    border-top: 1px solid gray;
+    width: 330px;
+    border-right: 1px solid rgb(223, 212, 212);
+    border-top: 1px solid rgb(223, 212, 212);
 
-    /* text-align: center; */
 }
 
 #sizes{
     margin-top: 30px;
     margin-left: 20px;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid rgb(223, 212, 212);
 
 
 }
+
+#prices{
+  line-height: 25px;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 15px;
+  color: rgb(72, 68, 68);
+}
+
+
 #sizes p ,#product p , #themes p{
     font-weight: 800;
 }
 #product{
     margin-top: 150px;
     margin-left: 20px;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid rgb(223, 212, 212);
+    font-size: 14px;
+
 
 }
 
 #themes{
     margin-top: 30px;
     margin-left: 20px;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid rgb(223, 212, 212);
+    font-size: 14px;
 
 
 }
@@ -48,22 +58,31 @@
 
 #product-search-box{
     height: 40px;
-    width: 250px;
+    width: 230px;
+    border: none;
+    border: 1px solid ;
     border-radius: 5px;
     margin-top: 20px;
+    border-color:rgb(223, 212, 212);
 }
 #theme-search-box{
     height: 40px;
-    width: 250px;
+    width: 230px;
+    border: none;
+    border: 1px solid ;
     border-radius: 5px;
     margin-top: 20px;
+    border-color:rgb(223, 212, 212);
 
 }
 #size-search-box{
     height: 40px;
-    width: 250px;
+    width: 230px;
+    border: none;
+    border: 1px solid ;
     border-radius: 5px;
     margin-top: 20px;
+    border-color:rgb(223, 212, 212);
 }
 
 #size-options{
@@ -75,11 +94,14 @@
 
 .options{
     width: 43px;
-    height: 30px;
-    border: 2px solid black;
+    height: 25px;
+    border: 2px solid rgb(124, 119, 119);
     border-radius: 10px;
     text-align: center;
     align-self: center;
+    font-size: 13px;
+    color: gray;
+    padding-top: 2px;
 }
 
 .text-product-checkbox{
@@ -96,30 +118,39 @@
 }
 #sorting{
     margin-left: 30px;
-    height: 100px;
+    height: 80px;
 }
 #sorting #p1{
     color: gray;
-    margin-top: 40px;
+    margin-top: 30px;
+    font-size: 13px;
 }
 
 #product-images{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    column-gap: 10px;
     row-gap: 100px;
     margin-left: 20px;
+    width: 100%;
 }
 
 .images{
-    width: 280px;
+    width: 240px;
 }
 
 .product-info .tag-name{
    font-weight: 800;
-   color: rgb(65, 57, 57);
+   font-size: 14px;
+   color: rgb(112, 107, 107);
    line-height: 25px;
-   border-bottom: 1px solid gray;
+   border-bottom: 1px solid rgb(238, 230, 230);
+   
+}
+.product-info .size-name{
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(44, 42, 42);
+
 }
 .product-info .price{
     font-weight: 900;
